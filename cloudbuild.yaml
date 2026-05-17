@@ -31,3 +31,7 @@ steps:
 
 images:
 - 'us-central1-docker.pkg.dev/gcpdevops-495507/python-repo/runimage:v1'
+
+
+options:
+  logging: CLOUD_LOGGING_ONLY
